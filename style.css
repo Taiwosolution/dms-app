@@ -1,0 +1,198 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  margin: 5px 10px;
+}
+/* HEADER */
+img {
+  max-width: 100%;
+}
+body {
+  background: #f5f5f2;
+}
+
+.logo {
+  display: flex;
+  max-width: 30px;
+  height: 30px;
+  gap: 1rem;
+}
+
+.logo h4 {
+  color: #030026;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+  font-family: roboto;
+  font-weight: 700;
+}
+
+/* HERO-CONTAINER */
+.Hero-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0px 70px;
+}
+
+.left-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-container img {
+  padding-left: 100px;
+}
+
+.left-container h2 {
+  color: #000;
+  padding-left: 100px;
+  max-width: 610px;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.left-container p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  max-width: 490px;
+  font-weight: 200;
+  padding-left: 100px;
+  margin-top: 1.5rem;
+}
+
+.left-container button {
+  margin-top: 3rem;
+  padding: 13px 23px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  border-radius: 10px;
+  background: #053582;
+}
+
+
+
+.right-info-container {
+  min-height: 90vh;
+  padding: 48px;
+  gap: 40px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 3px -5px 40px 0px rgba(205, 205, 212, 0.1);
+}
+
+.right-info-container h2 {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-info-container p {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+input[type="text"] {
+  padding: 10px 70px;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid #e2e2ea;
+}
+
+input [type="phone"] {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #e2e2ea;
+  background: #fff;
+}
+
+legend{
+stroke-width: 1px;
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.privacy {
+  margin-top: 1.5rem;
+  max-width: 400px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.buttom{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttom button {
+  display: inline-flex;
+  padding: 13px 23px;
+  color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #053582;
+}
+
+/* HERO CONTAINER *
+
+
+
+
+
+
+
+
+
+
+
+/* MEDAI QUERY */
+
+@media (max-width: 480) {
+  .logo {
+    padding-left: 20px;
+  }
+  .scooter-ride {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 770px) {
+  .info-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* MEDAI QUERY */
